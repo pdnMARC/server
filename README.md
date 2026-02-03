@@ -5,7 +5,14 @@ Built for speed, collaboration, and breakthrough AI innovation.
 
 ---
 
-### 🔥 COVID-AI Server  
+### 🔥🔥🔥 News & Updates
+Stay in the loop — server status, maintenance, and repo changes announced here.
+
+03 Feb 2026 — GitHub documentation page refreshed.
+
+---
+
+### 🖥️ COVID-AI Server  
 
 **Codename:** COVID-AI  
 **Type:** Elite HPC Beast  
@@ -91,3 +98,4 @@ Downtime? We’ll shout it out early.
 
 **Built for the future of AI research.**  
 Let’s push limits. 🚀🔥
+
