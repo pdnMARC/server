@@ -1,5 +1,5 @@
 # 🚀 EEE High-Performance Computing  
-**University of Peradeniya | Department of Electrical & Electronic Engineering**  
+**University of Peradeniya | Multidisciplinary AI Research Centre**  
 
 Built for speed, collaboration, and breakthrough AI innovation.  
 
@@ -86,16 +86,17 @@ Need access? Submit a formal request to the sysadmins.
 
 ### 🛠️ Support & Maintenance  
 
-Handled by the department’s elite admin crew.  
+Handled by the MARC admin crew.  
 Issues, new accounts, or scheduled work → check `admin/` folder first, then hit official channels.  
 
 Downtime? We’ll shout it out early.
 
 ---
 
-**© 2026 Department of Electrical & Electronic Engineering**  
+**© 2026 Multidisciplinary AI Research Centre**  
 **University of Peradeniya, Sri Lanka**  
 
 **Built for the future of AI research.**  
 Let’s push limits. 🚀🔥
+
 
