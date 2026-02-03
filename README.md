@@ -1,137 +1,93 @@
-# 🚀 Department of Electrical and Electronic Engineering  
-## Computing Infrastructure & Research Servers  
-**University of Peradeniya, Sri Lanka**
+# 🚀 EEE High-Performance Computing  
+**University of Peradeniya | Department of Electrical & Electronic Engineering**  
 
-> _A centralized, well-maintained reference for departmental high-performance computing resources._  
-> _Designed for clarity, professionalism, and ease of use._
+Built for speed, collaboration, and breakthrough AI innovation.  
 
 ---
 
-## 📌 About This Repository
+### 🔥 COVID-AI Server  
 
-This repository documents the computing servers owned, operated, and maintained by the **Department of Electrical and Electronic Engineering (EEE)** at the University of Peradeniya.
+**Codename:** COVID-AI  
+**Type:** Elite HPC Beast  
+**Mission:** Powering AI/ML training, massive datasets, and groundbreaking experiments  
 
-It acts as the **single source of truth** for:
-- Server access information  
-- Hardware and software specifications  
-- Operational policies and best practices  
-- Administrative and maintenance references  
+**Led by:** AI4COVID Research Group  
+**Project Hub:** [covid.eng.pdn.ac.lk](https://covid.eng.pdn.ac.lk/)  
+**Powered by:** IDRC Grant 109586-001  
 
-**Intended audience:**  
-Authorized researchers, postgraduate students, faculty members, and system administrators.
-
----
-
-## 🖥️ COVID-AI Server
-
-**Server Identifier:** COVID-AI Server  
-**Category:** High-Performance Compute (HPC)  
-**Primary Role:** AI / ML training, large-scale data processing, and experimental research  
-
-**Hosting Research Group:** AI4COVID Research Group  
-**Project Website:** https://covid.eng.pdn.ac.lk/  
-**Funding Agency:** International Development Research Centre (IDRC)  
-**Grant Number:** 109586-001  
-
-The COVID-AI Server is a **shared departmental asset** dedicated to advancing AI-driven research and interdisciplinary collaboration.
+This machine is a shared weapon for pushing the boundaries of AI research. Use it wisely. 💪
 
 ---
 
-## 📊 Live Resource Monitoring
+### 📈 Real-Time Dashboard  
+Live GPU, CPU, RAM stats — always know when to strike:  
+🔗 [cepdnaclk.github.io/servermonitoring](https://cepdnaclk.github.io/servermonitoring/)  
 
-System health and utilization metrics (GPU, CPU, memory) are publicly visualized via the departmental monitoring portal:
-
-https://cepdnaclk.github.io/maintenance/reports/server-gpu-util/plots/ee/
-
-Users are strongly encouraged to review utilization trends before launching compute-intensive jobs.
+**Pro tip:** Check the dashboard before queuing big jobs. Save time, stay efficient.
 
 ---
 
-## 🗂️ Repository Layout
-
+### 📁 Repo Structure  
 ```
 .
-├── admin/   → Administrative procedures, runbooks, and maintenance notes
-├── faq/     → User-facing FAQs and common troubleshooting steps
-└── specs/   → Detailed hardware & software specifications
+├── admin/   → Runbooks, maintenance, admin secrets
+├── faq/     → Quick fixes & common questions
+└── specs/   → Full hardware + software breakdown
 ```
 
-⚠️ **Security Notice:**  
-Credentials, private keys, tokens, or sensitive data must never be committed to this repository.
-
 ---
 
-## 🔐 Internal Records (Restricted)
+### ⚡ Quick Access Guide  
 
-The following documents are maintained separately and are accessible **only to authorized personnel**:
+**Access:** Strictly approved only. Every connection is logged.  
 
-- **Management & Change Logs**  
-  https://docs.google.com/document/d/1KQQvQHTXUsq2LICX7oSW2EAkTSEX2J9v79jG0pilQVE/edit?usp=sharing
+**External (Worldwide)**  
+- IP: `192.248.40.131`  
+- Port: `25692`  
 
-- **User Account Registry**  
-  https://docs.google.com/spreadsheets/d/1Rxvh1ioRFD-KXgWE4U1UdCPTqiQuW3UcW3CTedKsLwk/edit#gid=0
+**Internal (Campus Network)**  
+- Hostname: `ai4covid.ee.pdn.ac.lk`  
 
-Requests for access must be formally directed to the system administrators.
-
----
-
-## 🔗 Server Access & Connectivity
-
-Access is granted **only after formal approval**. All connections are logged and monitored.
-
-### 🌍 External Access
-- **Public IP:** 192.248.40.131  
-- **SSH Port:** 25692  
-
-### 🏫 Internal Access (Faculty Network)
-- **Hostname:** ai4covid.ee.pdn.ac.lk  
-
-### 🔑 Connection Examples
-
+**One-liner Commands**  
 ```bash
-# External login
-ssh -p 25692 <username>@192.248.40.131
+# Jump in from outside
+ssh -p 25692 username@192.248.40.131
 
-# Internal login (faculty Wi-Fi)
-ssh <username>@ai4covid.ee.pdn.ac.lk
+# Campus login
+ssh username@ai4covid.ee.pdn.ac.lk
 
-# Secure file transfer
-scp -P 25692 dataset.tar.gz <username>@192.248.40.131:~/
-```
+# Throw files over
+scp -P 25692 data.zip username@192.248.40.131:~/
 
-For large data transfers, `rsync` is recommended.
-
----
-
-## 🛠️ Administration & Support
-
-Server administration and maintenance are handled by designated departmental personnel.
-
-For:
-- Access requests  
-- Technical issues  
-- Maintenance coordination  
-
-Please refer to documentation under `admin/` or contact the administrators via official departmental channels.
-
-Planned maintenance windows will be announced in advance whenever feasible.
-
----
-
-## 🧾 Change Tracking
-
-All significant configuration updates, policy changes, and maintenance activities must:
-- Be recorded in the management logs  
-- Be reflected in this repository where applicable  
-
-Example:
-```
-2026-01-31  Initial formal README published
-2026-02-08  Added monitoring and access policy refinements
+# Big transfers? rsync is your friend
+rsync -avz -e "ssh -p 25692" local_folder/ username@192.248.40.131:~/remote_folder/
 ```
 
 ---
 
-© Department of Electrical and Electronic Engineering  
-University of Peradeniya, Sri Lanka  
-_Official departmental computing documentation_
+### 🔒 Secure & Restricted Zones  
+
+**Never commit secrets here.** Keys, tokens, passwords — keep them off-repo.  
+
+**Admin-Only Vaults**  
+- Change Logs & Management: [Private Doc](https://docs.google.com/document/d/1KQQvQHTXUsq2LICX7oSW2EAkTSEX2J9v79jG0pilQVE/edit?usp=sharing)  
+- User Registry: [Private Sheet](https://docs.google.com/spreadsheets/d/1Rxvh1ioRFD-KXgWE4U1UdCPTqiQuW3UcW3CTedKsLwk/edit#gid=0)  
+
+Need access? Submit a formal request to the sysadmins.
+
+---
+
+### 🛠️ Support & Maintenance  
+
+Handled by the department’s elite admin crew.  
+Issues, new accounts, or scheduled work → check `admin/` folder first, then hit official channels.  
+
+Downtime? We’ll shout it out early.
+
+---
+
+**© 2026 Department of Electrical & Electronic Engineering**  
+**University of Peradeniya, Sri Lanka**  
+
+**Built for the future of AI research.**  
+Let’s push limits. 🚀🔥
